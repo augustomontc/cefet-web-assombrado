@@ -96,7 +96,9 @@
           </h2>
         </article>
       </section>
-
+      <img class="boo" id="boo1" src="imgs/boo1.gif">
+      <img class="boo" id="boo2" src="imgs/boo2.gif">
+      <img class="boo" id="boo3" src="imgs/boo3.gif">
       <a id="voltar-topo" href="#topo-da-pagina">&#x2B06</a>
     </main>
 
@@ -122,7 +124,7 @@
 
     <script>
       // faz o vídeo desaparecer de leve assim que terminar
-      let tempo = 110;  // 11s, duração do vídeo
+      let tempo = 1100;  // 11s, duração do vídeo
       setTimeout(() => {
         // faz o vídeo desaparecer colocando a classe .desaparecido
         document.querySelector('.backdrop').classList.add('desaparecido');
@@ -137,5 +139,6 @@
         e.currentTarget.classList.add('desaparecido');
       });
     </script>
+    <script src="boos.js"></script>
   </body>
 </html>

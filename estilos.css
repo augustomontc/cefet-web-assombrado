@@ -321,3 +321,33 @@ footer .texto-rodape {
 #voltar-topo:hover {
   opacity: 1;
 }
+
+.elemento-virado {
+  transform: scaleX(-1);
+}
+
+.boo {
+  position: absolute;
+  width: 40px;
+  opacity: .4;
+  transition: all 1s ease;
+}
+
+.boo:hover {
+  opacity: 1;
+}
+
+#boo1 {
+  right: 100px;
+  top: 400px;
+}
+
+#boo2 {
+  right: 200px;
+  top: 600px;
+}
+
+#boo3 {
+  right: 300px;
+  top: 500px;
+}
